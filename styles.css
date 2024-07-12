@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.header {
+    height: 200px;
+    width: 100%;
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+#logo {
+    height: 100px;
+    width: auto;
+}
+
+.navbar a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding-left: 30px;
+    margin-top: 10px;
+}
+
+.navbar a:hover {
+    color: yellow;
+}
+
+.searchcontainer .search-box {
+    height: 25px;
+    width: 200px;
+}
+
+.searchcontainer .search-box:hover {
+    margin-top: 0%;
+    height: 30px;
+}
+
+.searchcontainer .search-button {
+    height: 25px;
+    background-color: red;
+    color: white;
+}
+/* css for movies.html */
+.moviecontainer .movie img{
+    justify-content: flex;
+    
+}
+/* css for login.html */
+.logcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin-top: 20px;
+}
+
+.log {
+    height: 400px;
+    width: 450px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.log img {
+    width: 100px;
+    height: 100px;
+    margin-left: 180px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+.log .loginform {
+    text-align: center;
+}
+
+.log .loginform input[type="text"],
+.log .loginform input[type="password"] {
+    width: 90%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.log .loginform input[type="button"] {
+    width: 50%;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.log .loginform a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: blue;
+    text-decoration: none;
+}
+
+.regcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.reg {
+    height: 500px;
+    width: 450px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.reg img {
+    width: 100px;
+    height: 100px;
+    margin-left: 180px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+.reg .registrationform {
+    text-align: center;
+}
+
+.reg .registrationform input[type="text"],
+.reg .registrationform input[type="email"],
+.reg .registrationform input[type="password"],
+.reg .registrationform select {
+    width: 90%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.reg .registrationform select {
+    width: 93%;
+    padding: 5px;
+    margin-left: 0;
+}
+
+.reg .registrationform input[type="submit"] {
+    width: 20%;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+.reg .registrationform a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: blue;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+    width: 100%;
+}
