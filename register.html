@@ -4,21 +4,24 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Login</title>
+    <title>REGISTRATION</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/registration.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <div class="header">
         <div class="navbar">
-            <a href="index.html"> <img id="logo" src="/images/t-logo.png"></a>
-            <a href="index.html">Home</a>
-            <a href="movies.html">Movies</a>
-            <a href="login.html">Login</a>
-            <a href="register.html">Register</a><br>
+            <a href="index.html"> <img class="logo" src="images/t-logo.png"></a>
+            <a href="index.html" class="btn">Home</a>
+            <a href="movies.html" class="btn">Movies</a>
+            <a href="login.html" class="btn">Login</a>
+            <a href="register.html" class="btn">Register</a><br>
 
             <div class="searchcontainer">
                 <form>
@@ -27,33 +30,42 @@
                 </form>
             </div>
         </div>
-        <h1 style="text-align: center;">Registration Form</h1>
-        <div class="regcontainer">
-            <div class="reg">
-                <form>
-                    <img src="images/th.jpg" alt="Avatar">
-                    <div class="registrationform">
-                        <input type="text" placeholder="Name" required>
-                        <input type="text" placeholder="Age">
-                        <select name="gender" id="gender">
-                            <option value="" disabled selected>Select Gender</option>
-                            <option value="male">Male</option>
-                            <option value="female">Female</option>
-                            <option value="transgender">Transgender</option>
-                        </select>
-                        <input type="text" placeholder="Mobile Number">
-                        <input type="email" placeholder="Email">
-                        <input type="password" placeholder="Password">
-                        <input type="password" placeholder="Re-Enter Password">
-                        <input type="submit" name="continue" value="continue">
-                    </div>
-                </form>
-            </div>
+    </div>
+    <main>
+    <h1 class="heading">REGISTRATION FORM</h1>
+    <div class="regcontainer">
+        <div class="reg">
+            <form>
+                <img src="images/th.jpg" alt="Avatar">
+                <div class="registrationform">
+                    <input type="text" placeholder="Name" required>
+                    <input type="text" placeholder="Age">
+                    <select name="gender" id="gender">
+                        <option value="" disabled selected>Select Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="transgender">Transgender</option>
+                    </select>
+                    <input type="text" placeholder="Mobile Number">
+                    <input type="email" placeholder="Email">
+                    <input type="password" placeholder="Password">
+                    <input type="password" placeholder="Re-Enter Password">
+                    <input type="submit" name="continue" value="continue">
+                </div>
+            </form>
         </div>
-    </div> 
-    <!-- <div class="footer">
-        <p>&copy; 2024 MBS. All rights reserved.</p>
-    </div> -->
+    </div>
+</main>
+<div class="footer">
+    <p>&copy; 2024 MBS. All rights reserved.~SG</p>
+    <div class="social-media">
+        <a href="mailto:saurabhgolhar84@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/saurabh-golhar-120181229"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://wa.me/7756848779"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="tel:7756848779"><i class="fa-solid fa-phone"></i></a>
+        <a href="https://github.com/yourgithubusername"><i class="fa-brands fa-github"></i></a>
+    </div>
+</div>
 
 </body>
 

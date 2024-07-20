@@ -1,24 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>MBS</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <div class="header">
         <div class="navbar">
-           <a href="index.html"><img id="logo" src="/images/t-logo.png"></a>
-            <a href="index.html">Home</a>
-            <a href="movies.html">Movies</a>
-            <a href="login.html">Login</a>
-            <a href="register.html">Register</a><br>
-      
+            <a href="" target="_self"><img class="logo" src="images/t-logo.png" alt="logo"></a>
+            <a href="" target="_self" class="btn">Home</a>
+            <a href="movies.html" target="_self" class="btn">Movies</a>
+            <a href="login.html" target="_self" class="btn">Login</a>
+            <a href="register.html" target="_self" class="btn">Register</a><br>
+
             <div class="searchcontainer">
                 <form>
                     <input type="text" class="search-box" name="sb" placeholder="Enter a Movie Name">
@@ -27,11 +31,156 @@
             </div>
         </div>
     </div>
-
-    <!-- Main content of your website -->
-
+    <main>
+        <h1 class="heading">Upcoming Movies</h1><br>
+        <div class="moviecontainer">
+            <div class="gallery1">
+                <a target="_blank" href="https://youtu.be/wboGYls1Bns?si=awg8Pa5RnNSQdAD0">
+                    <img src="images/Upcoming/pushpa 2.jfif" alt="Pushpa 2:The Rule">
+                </a>
+                <div class="desc"><strong class="movie-title">Pushpa 2:The Rule</strong>
+                    <p class="movie-stars">
+                        Stars: Allu Arjun<br>
+                        Rashmika Mandhana <br>
+                        Vijay Sethupathi
+                    </p>
+                </div>
+            </div>
+            <div class="gallery1">
+                <a target="_blank" href="https://youtu.be/D1SFjYoXRB8?si=IjRBpP-H2dvlqnuP">
+                    <img src="images/Upcoming/stree2.jfif" alt="stree2">
+                </a>
+                <div class="desc"><strong class="movie-title">Stree2</strong>
+                    <p class="movie-stars">
+                        Stars: Rajkumar Rao<br>
+                        Shradha Kapoor<br>
+                        Varun Dhawan
+                    </p>
+                </div>
+            </div>
+            <div class="gallery1">
+                <a target="_blank" href="https://youtu.be/GVw_MwidkGg?si=206CJ2ep4ffTQFhw">
+                    <img src="images/Upcoming/kantara1.jfif" alt="kantara1">
+                </a>
+                <div class="desc"><strong class="movie-title">Kantara1</strong>
+                    <p class="movie-stars">
+                        Stars: Rishab Shetty<br>
+                        Sapthami Gowda<br>
+                        Kishore
+                    </p>
+                </div>
+            </div>
+            <div class="gallery1">
+                <a target="_blank" href="https://youtu.be/4ijYySiMLEw?si=_4WJbHSMmRa7ebaD">
+                    <img src="images/Upcoming/bhool bhulaiyaa.jfif" alt="Bhool Bhulaiyaa 3">
+                </a>
+                <div class="desc"><strong class="movie-title">Bhool Bhulaiyaa 3</strong>
+                    <p class="movie-stars">
+                        Stars: Kartik Aaryan<br>
+                        Vidya Balan<br>
+                        Tripti Dimri
+                    </p>
+                </div>
+            </div>
+            <div class="gallery1">
+                <a target="_blank" href="https://youtu.be/7nXBy1AElY0?si=rwaoMO2cb3a0Xqee">
+                    <img src="images/Upcoming/double ismart.jfif" alt="Double Ismart">
+                </a>
+                <div class="desc"><strong class="movie-title">Double Ismart</strong>
+                    <p class="movie-stars">
+                        Stars: Ram Pothineni<br>
+                        Sanjay Dutt<br>
+                        Gurbani
+                    </p><br>
+                </div>
+            </div>
+        </div>
+        <h1 class="heading">Now Showing</h1><br>
+        <div class="moviecontainer">
+            <div class="gallery1">
+                <a target="_blank" href="https://youtu.be/kQDd1AhGIHk?si=k3Q-CDIvedJFSs39">
+                    <img src="images/kalki.jpg" alt="Kalki 2898-AD">
+                </a>
+                <div class="desc"><strong class="movie-title">Kalki 2898-AD</strong>
+                    <p class="movie-stars">
+                        Stars: Prabhas<br>
+                        Amitabh Bachchan <br>
+                        Kamal Haasan
+                    </p>
+                </div>
+            </div>
+            <div class="gallery1">
+                <a target="_blank" href="https://youtu.be/y2HZqeVeBNc?si=jXCpCD0UBJzgQ6yd">
+                    <img src="images/kill.jpg" alt="Kill">
+                </a>
+                <div class="desc"><strong class="movie-title">Kill</strong>
+                    <p class="movie-stars">
+                        Stars: Lakshya Lalwani<br>
+                        Tanya Maniktala<br>
+                        Raghav Juyal
+                    </p>
+                </div>
+            </div>
+            <div class="gallery1">
+                <a target="_blank" href="https://youtu.be/PjItOU444XQ?si=1CH_LVuLkSWAvYe5">
+                    <img src="images/alyad-palyad.jpg" alt="Alyad Palyad">
+                </a>
+                <div class="desc"><strong class="movie-title">Alyad Palyad</strong>
+                    <p class="movie-stars">
+                        Stars: Makarand Deshpande<br>
+                        Gaurav More<br>
+                        Saksham Kulkarni
+                    </p>
+                </div>
+            </div>
+            <div class="gallery1">
+                <a target="_blank" href="https://youtu.be/qGb5aKEYR8Q?si=oZpIofz-XR-4E-du">
+                    <img src="images/munjya.jpg" alt="Munjya">
+                </a>
+                <div class="desc"><strong class="movie-title">Munjya</strong>
+                    <p class="movie-stars">
+                        Stars: Sharvari Wagh<br>
+                        Abhay Verma<br>
+                        Mona Singh
+                    </p>
+                </div>
+            </div>
+            <div class="gallery1">
+                <a target="_blank" href="https://youtu.be/n3ttNeXKPHg?si=geoTIIrwXcmZDvU4">
+                    <img src="images/maharaja.jpg" alt="Maharaja">
+                </a>
+                <div class="desc"><strong class="movie-title">Maharaja</strong>
+                    <p class="movie-stars">
+                        Stars: Vijay Sethupathi<br>
+                        Anurag Kashyap<br>
+                        Mamta Mohandas
+                    </p>
+                </div>
+            </div>
+            <div class="gallery1">
+                <a target="_blank" href="https://youtu.be/5V8Z3h9oVMc?si=jnq3qyLsSt7We8nT">
+                    <img src="images/kakuda.jpg" alt="Kakuda">
+                </a>
+                <div class="desc"><strong class="movie-title">Kakuda</strong>
+                    <p class="movie-stars">
+                        Stars: Sonakshi Sinha<br>
+                        Riteish Deshmukh<br>
+                        Saqib Saleem
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
     <div class="footer">
-        <p>&copy; 2024 MBS. All rights reserved.</p>
+        <p>&copy; 2024 MBS. All rights reserved.~SG</p>
+        <div class="social-media">
+            <a href="mailto:saurabhgolhar84@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/saurabh-golhar-120181229"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://wa.me/7756848779"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="tel:7756848779"><i class="fa-solid fa-phone"></i></a>
+            <a href="https://github.com/yourgithubusername"><i class="fa-brands fa-github"></i></a>
+        </div>
     </div>
 </body>
+
 </html>
