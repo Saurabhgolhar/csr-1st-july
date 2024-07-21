@@ -97,7 +97,7 @@ main .heading {
     border: 3px solid #0080ff;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: white;
+    background-image: radial-gradient(circle, #fbc2eb, #a6c0fe);
     padding: 20px;
     text-align: center;
 }
@@ -154,8 +154,7 @@ main .heading {
 .log .loginform a {
     display: block;
     margin-top: 10px;
-    color: #1E90FF;
-    text-decoration: none;
+    color: #381eff;
     transition: color 0.3s ease;
 }
 
